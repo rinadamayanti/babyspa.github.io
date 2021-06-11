@@ -1,0 +1,407 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+    margin: 0;
+    padding: 0;
+}
+
+h2:hover,
+h3:hover {
+    animation-name: change;
+    animation-duration: 2s;
+    animation-iteration-count: 4;
+}
+
+@keyframes change {
+    30% {
+        color: #df4d76;
+    }
+
+    60% {
+        color: #d8f7f9;
+    }
+
+    100% {
+        color: #333332;
+    }
+}
+
+/* team section */
+.img-box:hover {
+    bottom: 7px;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    padding-bottom: 30px;
+    font-family: 'Segoe UI',
+        Tahoma,
+        Verdana,
+        sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: #333332;
+}
+
+h3 {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.clear {
+    clear: left;
+}
+
+.container {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/*header section*/
+
+header {
+    height: 65px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    background-color: #df4d76;
+}
+
+.logo {
+    width: 68px;
+    margin-top: -3px;
+    margin-right: 5px;
+
+}
+
+.header-left {
+    float: left;
+    align-items: center;
+    display: flex;
+}
+
+.header-left p {
+    margin-top: 0;
+    font-size: 20px;
+    color: white;
+    font-style: "Cosmic Sans MS";
+}
+
+.header-right {
+    float: right;
+    margin-right: -25px;
+}
+
+.header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+
+.header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+}
+
+/*top wrapper*/
+.top-wrapper {
+    padding: 170px 0 100px 0;
+    background-image: url(images/hero-image.jpg);
+    background-size: cover;
+    color: black;
+    text-align: center;
+}
+
+.top-wrapper h1 {
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+.top-wrapper p {
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.readmore {
+    text-align: center;
+    margin: 20px 0;
+    background-color: #df4d76;
+    font-weight: bold;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+/* our treatment section */
+.treatment-section {
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    /*height: 600px;*/
+}
+
+.treatment {
+    float: left;
+    width: 25%;
+}
+
+.treatment-image img {
+    position: relative;
+    width: 100%;
+}
+
+.treatment-name p {
+    width: 100%;
+    color: #5f5d60;
+}
+
+.keterangan {
+    width: 90%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #5f5d60;
+}
+
+.keterangan p {
+    margin-right: -14px;
+}
+
+.treatment-box {
+    box-sizing: border-box;
+    box-sizing: inherit;
+    border: 2px solid #ccc;
+    width: 95%;
+    border-radius: 6px;
+}
+
+/* about us section */
+.about-wrapper {
+    height: 600px;
+    padding: 25px 25px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contents {
+    float: left;
+    width: 100%;
+}
+
+
+.section-text {
+    text-align: justify;
+    display: block;
+    float: left;
+    width: 50%;
+    padding-top: 40px;
+    font-size: 18px;
+    justify-self: left;
+    text-align: center; 
+} 
+
+.img-us {
+    float: right;
+    padding-left: 50px; 
+    width: 50%;
+    display: block;
+    height: auto;
+    border-radius: 5px;
+} 
+
+.signup {
+    padding: 12px 24px;
+    color: black;
+    display: inline-block;
+    opacity: 0.8;
+    background-color: #f085c3;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.signup:hover {
+    opacity: 1;
+}
+
+.si {
+    background-color: #df4d76;
+}
+
+/* booking section */
+.booking-wrapper {
+    height: 750px;
+    padding: 25px 25px;
+    margin: auto;
+    /*margin-left: auto; */
+}
+
+.section-title {
+    margin-bottom: 70px;
+}
+
+.items {
+    overflow: hidden;
+    /* position: static; */ 
+    width: 450px;
+    height: 500px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.contents-form{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.items-img {
+    float: left;
+    margin-left: 70px;
+    border-radius: 5px;
+}
+
+.items p {
+    font-size: 16px;
+    margin-top: 2px;
+}
+
+input,
+textarea {
+    box-sizing: inherit;
+    width: 400px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 20px;
+    font-size: 12px;
+    border: 1px solid #65a7ca;
+}
+
+.form-submit {
+    padding: 12px 24px;
+    color: black;
+    display: inline-block;
+    opacity: 0.8;
+    background-color: #d8f7f9;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.form-submit:hover {
+    opacity: 1;
+}
+
+
+/*team section*/
+.heading {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: #5f5d60;
+}
+
+.team-wrapper {
+    padding-bottom: 80px;
+    text-align: center;
+    font: bold;
+    background-color: rgba(216, 247, 249, 0.6);
+}
+
+.team {
+    float: left;
+    width: 20%;
+    padding: 15px 25px;
+}
+
+.teams {
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img-box {
+    position: relative;
+}
+
+.img-box img {
+    width: 200px;
+}
+
+.txt-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 2px;
+    font-size: 15px;
+    color: black;
+}
+
+/*footer section*/
+/* footer {
+    background-color: #df4d76;
+    color: white;
+    padding: 40px;
+    position: absolute;
+    width:100%;
+    text-align: center;
+
+} */
+
+footer {
+    height: 80px;
+    background-color: #df4d76;
+    padding-top:30px;
+    padding-bottom:20px;
+    position:absolute;
+    width:100%;
+    text-align: center;
+}
+
+footer p {
+    color:white;
+    font-size: 12px;
+}
